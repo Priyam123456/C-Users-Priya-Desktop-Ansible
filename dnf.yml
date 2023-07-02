@@ -1,0 +1,7 @@
+---
+- hosts: mywebserver 
+  tasks: 
+  - name : I want to install dnf on mywebserver 
+    yum:
+     name: dnf
+     state: present
