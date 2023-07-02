@@ -3,5 +3,5 @@
   tasks: 
   - name : I want to install dnf on mywebserver 
     yum:
-     name: dnf
+     name: lib-*
      state: present
