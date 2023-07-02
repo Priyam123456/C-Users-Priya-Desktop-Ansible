@@ -1,0 +1,11 @@
+---
+- Name : I want to ping 
+  hosts: localhost
+
+  tasks: 
+  -  name: ping 
+     ping: 
+
+
+   
+    

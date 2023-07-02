@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+  - name: I want to ping
+    ping:  
+  - name:  I want to install webserver on ubuntu node
+    apt: 
+     name: tree
+     state: present
+  - name: I want to install "apache2" on ubuntu node
+    apt:
+     name: "apache2"
+     state: present
