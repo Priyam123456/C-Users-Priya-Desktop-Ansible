@@ -8,5 +8,5 @@
    - name: start tree services 
      apt: 
       name: my tree package 
-      state: started 
+      state: stoped
 
