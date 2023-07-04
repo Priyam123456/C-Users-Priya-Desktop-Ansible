@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebserver
   tasks: 
   - name: I want to install httpd on centos server 
     apt:
