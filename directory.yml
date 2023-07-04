@@ -1,0 +1,9 @@
+---
+- hosts:
+  tasks:
+  - name: creating file
+    file:
+      path:  /home/maha/priyambhu
+      state: directory
+      mode: 777
+      
