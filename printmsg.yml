@@ -1,4 +1,4 @@
---
+---
 - hosts: mywebserver
   var:
    greeting: hello priyam 
