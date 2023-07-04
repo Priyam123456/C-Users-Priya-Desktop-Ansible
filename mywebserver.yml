@@ -4,5 +4,5 @@
   - name: I want to install httpd on centos server 
     apt:
      name: "{{mywebpack}}"
-     state: present
+     state: presentss
    
