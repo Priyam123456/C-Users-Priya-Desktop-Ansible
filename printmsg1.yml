@@ -1,0 +1,9 @@
+---
+- hosts: mywebserver
+  vars:
+   ramu: god is true
+  tasks: 
+  - name: print the statement 
+    debug: 
+     msg: "hello {{ramu}}"  
+    
