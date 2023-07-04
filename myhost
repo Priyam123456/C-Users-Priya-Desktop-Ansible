@@ -5,6 +5,3 @@
 192.168.204.163
 
 
-[mywebserver:var]
-key=value 
-mywebpack=httpd

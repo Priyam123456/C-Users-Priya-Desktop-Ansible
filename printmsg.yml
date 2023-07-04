@@ -1,0 +1,8 @@
+--
+- hosts: mywebserver
+  var:
+   greeting: hello priyam 
+  tasks:
+  - name: print the msg
+    debug:
+     msg: "{{greeting}}" how are u
