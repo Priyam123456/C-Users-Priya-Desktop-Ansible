@@ -1,0 +1,9 @@
+---
+- hosts: mywebserver
+  tasks:
+  - name: create a user john
+    user: 
+    path: /home/john
+    shell: /bin/bash
+    state: present
+    
