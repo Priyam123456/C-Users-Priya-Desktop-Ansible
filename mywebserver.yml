@@ -1,8 +1,8 @@
 ---
 - hosts: all
   tasks: 
-  - name: I want to install apache2 on my ubuntu nodes
+  - name: I want to install httpd on centos server 
     apt:
-     name: apache2
+     name: "{{mywebpack}}"
      state: present
-    when: ansible_os_family=="Debian"
+   
