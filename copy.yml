@@ -3,6 +3,6 @@
    tasks:
    - name: copy file 
      copy:
-      src: /root/C-Users-Priya-Desktop-Ansible/abch
-      dest: /root/abch
+      src: /root/C-Users-Priya-Desktop-Ansible/myhost
+      dest: /root/myhost
       mode: a+x 
